@@ -258,7 +258,7 @@ cat >> .config <<EOF
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
 # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
 # CONFIG_PACKAGE_luci-app-airplay2 is not set
-# CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-ddns=y
 # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
